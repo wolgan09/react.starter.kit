@@ -23,12 +23,6 @@ export const mainListItems = (
       <ListItemIcon>
       <i className="" />
       </ListItemIcon>
-      <ListItemText primary="Home" />
-    </ListItem>
-    <ListItem button>
-      <ListItemIcon>
-      <i className="" />
-      </ListItemIcon>
       <ListItemText primary="Customers" />
     </ListItem>
     <ListItem button>

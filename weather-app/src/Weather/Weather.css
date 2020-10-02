@@ -1,0 +1,35 @@
+.App-link {
+    color: #61dafb;
+  }
+
+  .App {
+    text-align: center;
+  }
+
+  .search-input:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+
+  .cities-list{
+   list-style-type: none; 
+  }
+  .list-item{
+    text-decoration: none;
+    color: white;
+  }
+  .list-item:hover{
+    cursor: pointer;
+    color: orange !important;
+  }
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }

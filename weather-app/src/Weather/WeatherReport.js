@@ -1,13 +1,11 @@
 import React, { Component } from 'react'
 
-export class NoMatch extends Component {
+export default class WeatherReport extends Component {
     render() {
         return (
             <div>
-                
+              Report  
             </div>
         )
     }
 }
-
-export default NoMatch

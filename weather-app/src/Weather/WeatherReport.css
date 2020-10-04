@@ -1,0 +1,18 @@
+.App-bg{
+    background: linear-gradient(to bottom, #202020, #345c65);
+    min-height:calc(100vh - 67px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.summer{
+    background: linear-gradient(to bottom, #fb8641, #b38f4c);
+}
+
+.winter{
+    background: linear-gradient(to bottom, #e4e1df, #4c96b3);
+}

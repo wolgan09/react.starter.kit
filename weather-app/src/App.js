@@ -10,10 +10,12 @@ function App() {
   return (
     <div >
     <Header />
+    <div >
     <Switch>
       <Route path="/" exact component={Weather}></Route>
       <Route path="/report/:id" component={WeatherReport} />
     </Switch> 
+    </div>
     </div>   
   );
 }

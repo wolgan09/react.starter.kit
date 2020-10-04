@@ -2,7 +2,7 @@
     width: 100%;
     background-color:  rgb(37, 189, 138);
     /* background-color: teal; */
-    position: absolute;
+    position: relative;
     height: 7%;
     top: 0;
 }

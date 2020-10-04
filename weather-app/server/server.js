@@ -16,8 +16,8 @@ app.get('/get-cities', (req, res) => {
   res.json(result)
 })
 app.get('/get-weather/:id', function (req, res, next) {
-  var id = req.params.id;
-  let result = database.weather.find( item => item.id === +id )
+  var name = req.params.id;
+  let result = database.weather.find( item => item.name.toLowerCase() === name.toLowerCase() )
   res.json(result);
 });
 app.listen(PORT,()=>{
